@@ -1,0 +1,93 @@
+.header {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: center;
+}
+
+.LogoBar {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    gap: 10px;
+    align-items: center;
+    font-size: 26px;
+    font-style: italic;
+    position: fixed;
+    left: 0px;
+    max-width: 235px;
+    min-width: 230px;
+}
+
+.HamMenu {
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+.searchBox {
+    height: 35px;
+    width: 40%;
+    min-width: 100px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+}
+
+.searchBox input {
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 100%;
+    color: black;
+    padding: 0px 30px;
+    font-size: 15px;
+    flex-grow: 1;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.searchBox input:focus {
+    background-color: white;
+}
+
+.searchBox :first-child {
+    position: absolute;
+    z-index: 10;
+    left: 5px;
+}
+
+.searchBox :last-child {
+    position: absolute;
+    z-index: 12;
+    right: 5px;
+}
+
+@media screen and (max-width: 940px) {
+    .HamMenu {
+        visibility: visible;
+    }
+
+    .header {
+        justify-content: space-between;
+        padding-right: 25px;
+        background-color: rgb(36 36 36);
+        z-index: 1000;
+    }
+
+    .LogoBar {
+        position: relative;
+    }
+    
+    .searchBox {
+        flex: 1;
+    }
+}
