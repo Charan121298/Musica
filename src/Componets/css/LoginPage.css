@@ -87,9 +87,14 @@ input[type="submit"]:hover {
     background-color: #d14836;
 }
 
-
 .error-message {
     color: #f44336;
     margin-top: 10px;
     text-align: center;
+}
+.skipBtn {
+background-color: #5f90be;
+color: #1e1e1e;
+font-size: 15px;
+font-weight: bold;
 }

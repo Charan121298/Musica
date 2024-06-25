@@ -5,12 +5,14 @@ import google from "../assets/googleBtn.svg"
 import "./css/LoginPage.css"
 import { UserAuth } from '../firebase/AuthContext.jsx'
 import Home from './home.jsx'
-
-
+import play from "../assets/FooterPlayer/play.svg"
+import pause from "../assets/FooterPlayer/pause.svg"
 
 export default function LoginPage() {
+  const [guest, setGuest] = useState(localStorage.getItem("guest") || "No");
   const navigate = useNavigate()
   const { googleSignIn, user } = UserAuth()
+
   const handleGoogleSignIn = async () => {
     try {
       await googleSignIn();
@@ -19,22 +21,21 @@ export default function LoginPage() {
     }
   };
 
-  useEffect(() => {
-    if (user !== null) {
-      <Home />;
-    }
-  }, [user, navigate]);
+  const handleGuestSignIn = () => {
+    setGuest("Yes");
+    localStorage.setItem("guest", "Yes");
+  };
 
-  if (user) {
+  useEffect(() => {
+    if (user !== null || guest === "Yes") {
+      navigate("/");
+    }
+
+  }, [user, guest, navigate]);
+
+  if (user || guest === "Yes") {
     return <Home />;
   }
-
-  // if (user) {
-  //   navigate("/homePage")
-  // }else{
-  //   navigate("/")
-  // }
-
 
   return (
     <div className="MainContainer">
@@ -52,6 +53,7 @@ export default function LoginPage() {
           <img src={google} height={30} alt="Google Logo" />
           <span>Login with Google</span>
         </button>
+        <button className="google-btn skipBtn" onClick={handleGuestSignIn} >Skip Login</button>
         <div className="error-message" id="error-message"></div>
       </div>
     </div>
