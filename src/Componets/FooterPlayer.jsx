@@ -7,7 +7,7 @@ import mute from "../assets/FooterPlayer/mute.svg"
 import suffle from "../assets/FooterPlayer/suffle.svg"
 import repeat from "../assets/FooterPlayer/repeat.svg"
 
-export default function FooterPlayer({playPrivSong, playNextSong ,currentSong, playBtn, firstSongDetails,playSong}) {
+export default function FooterPlayer({currentTime, duration, playPrivSong, playNextSong ,currentSong, playBtn, firstSongDetails,playSong}) {
 
     return (
         <div className="footerBox">
@@ -29,9 +29,9 @@ export default function FooterPlayer({playPrivSong, playNextSong ,currentSong, p
                         <img src={mute} alt="mute" height={40} />
                     </div>
                     <div className="seekBox">
-                        <span className="startTime">00:00</span>
+                        <span className="startTime">{currentTime}</span>
                         <span className="seekLine"></span>
-                        <span className="endTime">03:00</span>
+                        <span className="endTime">{duration}</span>
                     </div>
                 </div>
             </div>
