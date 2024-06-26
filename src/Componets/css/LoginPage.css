@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
-.MainContainer{
+.MainContainer {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -8,7 +9,8 @@
     padding: 20px;
 
 }
-.logo{
+
+.logo {
     display: flex;
     width: 100%;
     height: 100px;
@@ -35,6 +37,7 @@
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -92,9 +95,18 @@ input[type="submit"]:hover {
     margin-top: 10px;
     text-align: center;
 }
+
 .skipBtn {
-background-color: #5f90be;
-color: #1e1e1e;
-font-size: 15px;
-font-weight: bold;
+    background-color: #5f90be;
+    color: #1e1e1e;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.myName {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
 }

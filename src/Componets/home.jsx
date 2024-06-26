@@ -8,6 +8,8 @@ import SideBar from './SideBar'
 import songsData from '../../data.json';
 import play from "../assets/FooterPlayer/play.svg"
 import pause from "../assets/FooterPlayer/pause.svg"
+import mute from "../assets/FooterPlayer/mute.svg"
+import unmute from "../assets/FooterPlayer/unmute.svg"
 
 function Home() {
   const firstSongKey = Object.keys(songsData)[0];
@@ -24,6 +26,17 @@ function Home() {
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const [currentTime, setCurrentTime] = useState('00:00');
   const [duration, setDuration] = useState('00:00');
+  const [muted, setMuted] = useState(false); 
+  const [muteBtn, SetMuteBtn] = useState(unmute)
+  
+  const toggleMute = () => {
+    setMuted(!muted); 
+  if(muted ){
+    SetMuteBtn(unmute)
+  }else{
+    SetMuteBtn(mute)
+  }
+  };
 
   const toggleSidebar = () => {
     setIsSidebarActive(!isSidebarActive);
@@ -87,76 +100,91 @@ function Home() {
       console.log('End of song list');
     }
   };
-  const playPause = () => {
-    if (!currentSong.link) {
-      audioPlayer.current.src = firstSongDetails.link;
-      setCurrentSong(firstSongDetails);
-    }
-    if (isPlaying) {
-      audioPlayer.current.pause();
+  const timeToSeconds = (time) => {
+    const [minutes, seconds] = time.split(':').map(Number);
+    return minutes * 60 + seconds;
+  };
+  const playSong = (startTime = currentTime) => {
 
-      setPlayBtn(play);
-      setIsPlaying(false);
+    if (isFinite(startTime)) {
+      audioPlayer.current.currentTime = startTime;
+      if (!currentSong.link) {
+        audioPlayer.current.src = firstSongDetails.link;
+        setCurrentSong(firstSongDetails);
+      }
     } else {
-      audioPlayer.current.play();
-      console.log(audioPlayer.current.currentTime)
-      console.log(audioPlayer.current.Duration)
-      setPlayBtn(pause);
-      setIsPlaying(true);
+      if (!currentSong.link) {
+        audioPlayer.current.src = firstSongDetails.link;
+        setCurrentSong(firstSongDetails)
+      }
+      else {
+        if (isPlaying) {
+          audioPlayer.current.pause();
+          setPlayBtn(play);
+          setIsPlaying(false);
+        } else {
+          audioPlayer.current.play();
+          setPlayBtn(pause);
+          setIsPlaying(true);
+        }
+      }}};
+
+      const formatTime = (time) => {
+        const minutes = Math.floor(time / 60);
+        const seconds = Math.floor(time % 60);
+        return `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+      };
+      const updateTrackTime = () => {
+
+        if (audioPlayer.current) {
+          setCurrentTime(formatTime(audioPlayer.current.currentTime));
+          setDuration(formatTime(audioPlayer.current.duration));
+        }
+      };
+
+
+      useEffect(() => {
+        const audio = audioPlayer.current;
+
+        const handleTimeUpdate = () => {
+          setCurrentTime(formatTime(audio.currentTime));
+        };
+
+        const handleLoadedMetadata = () => {
+          setDuration(formatTime(audio.duration));
+        };
+
+        if (currentSong.link) {
+          audio.play();
+          setPlayBtn(pause);
+          setIsPlaying(true);
+        } else {
+          setPlayBtn(play);
+          audio.pause();
+          setIsPlaying(false);
+        }
+
+
+        audio.addEventListener('timeupdate', handleTimeUpdate);
+        audio.addEventListener('loadedmetadata', handleLoadedMetadata);
+
+        return () => {
+          audio.removeEventListener('timeupdate', handleTimeUpdate);
+          audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+        };
+      }, [currentSong]);
+
+
+      return (
+        <div className="mainBody">
+          <LogoBar toggleSidebar={toggleSidebar} />
+          <SideBar  isActive={isSidebarActive} />
+          <MainContent toggleSongBar={toggleSongBar} toggleSong={toggleSong}   isSrc={isSrc} isMove={isMove} />
+          <RightSection isActive={isSongBarActive} toggleSongBar={toggleSongBar} songsData={songsData} toggleSong={toggleSong} currentSong={currentSong} />
+          <audio ref={audioPlayer} muted={muted}/>
+          <FooterPlayer muteBtn = { muteBtn} toggleMute ={toggleMute} currentTime={currentTime} duration={duration} playSong={playSong} playPrivSong={playPrivSong} playNextSong={playNextSong} firstSongDetails={firstSongDetails} playBtn={playBtn} songsData={songsData} currentSong={currentSong} />
+        </div>
+      )
     }
-  };
-  const formatTime = (time) => {
-    const minutes = Math.floor(time / 60);
-    const seconds = Math.floor(time % 60);
-    return `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-  };
-  const updateTrackTime = () => {
-    if (audioPlayer.current) {
-      setCurrentTime(formatTime(audioPlayer.current.currentTime));
-      setDuration(formatTime(audioPlayer.current.duration));
-    }
-  };
 
-  useEffect(() => {
-    const audio = audioPlayer.current;
-
-    const handleTimeUpdate = () => {
-      setCurrentTime(formatTime(audio.currentTime));
-    };
-
-    const handleLoadedMetadata = () => {
-      setDuration(formatTime(audio.duration));
-    };
-
-    if (currentSong.link) {
-      audio.play();
-      setPlayBtn(pause);
-      setIsPlaying(true);
-    } else {
-      setPlayBtn(play);
-      audio.pause();
-      setIsPlaying(false);
-    }
-
-    audio.addEventListener('timeupdate', handleTimeUpdate);
-    audio.addEventListener('loadedmetadata', handleLoadedMetadata);
-
-    return () => {
-      audio.removeEventListener('timeupdate', handleTimeUpdate);
-      audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
-    };
-  }, [currentSong]);
-
-  return (
-    <div className="mainBody">
-      <LogoBar toggleSidebar={toggleSidebar} />
-      <SideBar isActive={isSidebarActive} />
-      <MainContent isSrc={isSrc} isMove={isMove} />
-      <RightSection isActive={isSongBarActive} toggleSongBar={toggleSongBar} songsData={songsData} toggleSong={toggleSong} currentSong={currentSong} />
-      <audio ref={audioPlayer} />
-      <FooterPlayer  currentTime={currentTime} duration={duration}playSong={playPause} playPrivSong={playPrivSong} playNextSong={playNextSong} firstSongDetails={firstSongDetails} playBtn={playBtn} songsData={songsData} currentSong={currentSong} />
-    </div>
-  )
-}
-
-export default Home
+    export default Home

@@ -52,7 +52,6 @@
     flex-direction: column;
     overflow-y: auto;
 }
-
 .playLists {
     background-color: #242424;
     gap: 10px;
@@ -66,6 +65,7 @@
 .playLists li {
     padding: 10px 10px;
     background-color: rgb(45, 46, 48);
+    text-align: center;
 }
 .Profilepic{
   border-radius: 40px;

@@ -14,7 +14,7 @@ export default function SideBar({ isActive }) {
     const handleSignOut = async () => {
         try {
             await logOut()
-           { <Navigate to="/dashboard" />}
+            { <Navigate to="/dashboard" /> }
         } catch {
             console.log(error)
         }
@@ -31,15 +31,14 @@ export default function SideBar({ isActive }) {
             </ul>
             <div className="PlaylistBox">
                 <ul className="playLists">
-                    <li>1st list</li>
-                    <li>2nd list</li>
-                    <li>3rd list</li>
-                    <li>4th list</li>
-                    <li>5th list</li>
-                    <li>6th list</li>
-                    <li>7th list</li>
-                    <li>8th list</li>
-                    <li>9th list</li>
+                    <li >Pop</li>
+                    <li>Jazz</li>
+                    <li>Rock</li>
+                    <li>Rap</li>
+                    <li>Blues</li>
+                    <li>Folk</li>
+                    <li>Metal</li>
+                    <li>Contry</li>
                 </ul>
             </div>
         </div>

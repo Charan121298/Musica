@@ -3,7 +3,7 @@
     height: 60px;
     bottom: 0px;
     position: fixed;
-    z-index: 1000;
+    z-index: 10000;
     display: flex;
     justify-content: center;
     background-color: #221414;
@@ -87,7 +87,17 @@
     height: 5px;
     flex-grow: 1;
     cursor: pointer;
-    background-color: brown;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.seekProgress {
+    height: 100%;
+    background-color: rgb(219, 30, 30);
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @media only screen and (max-width: 840px) {

@@ -54,6 +54,7 @@ export default function LoginPage() {
           <span>Login with Google</span>
         </button>
         <button className="google-btn skipBtn" onClick={handleGuestSignIn} >Skip Login</button>
+      <div className="myName">Prakash Tapariya © 2024</div>
         <div className="error-message" id="error-message"></div>
       </div>
     </div>

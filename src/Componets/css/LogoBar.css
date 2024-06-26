@@ -29,7 +29,6 @@
     border: none;
     cursor: pointer;
     visibility: hidden;
-
 }
 
 .searchBox {
@@ -53,6 +52,7 @@
     border: none;
     width: 100%;
     border-radius: 5px;
+    margin-bottom: 0px !important;
 }
 
 .searchBox input:focus {
@@ -67,8 +67,9 @@
 
 .searchBox :last-child {
     position: absolute;
-    z-index: 12;
+    z-index: 10;
     right: 5px;
+
 }
 
 @media screen and (max-width: 940px) {

@@ -25,7 +25,6 @@ export default function RightSection({ isActive, songsData, toggleSong, currentS
               <img src={currentSong.link === songInfo.Link? pause : play} width={25} height={25} alt="Play"
                 onClick={() => toggleSong(songName, songInfo.Artist, songInfo.Link)} />
               <img src={heart} width={25} height={25} alt="fav" />
-              <img src={dots} width={25} height={25} alt="dots" />
             </div>
           </li>
         ))}
