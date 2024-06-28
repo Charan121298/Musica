@@ -29,8 +29,8 @@ export default function SideBar({ isActive }) {
                 <li><img src={favorite} alt="favorite" height={30} />Favorite</li>
                 <li><img src={add} alt="favorite" height={30} />Create Playlist</li>
             </ul>
-            <div className="PlaylistBox">
-                <ul className="playLists">
+            <div className="PlaylistBox hide_scorllbar">
+                <ul className="playLists hide_scorllbar">
                     <li >Pop</li>
                     <li>Jazz</li>
                     <li>Rock</li>

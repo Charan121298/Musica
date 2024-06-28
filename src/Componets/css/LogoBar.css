@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 1000;
     display: flex;
-    align-items: center;
+    align-items: end;
     padding: 0px 10px;
     justify-content: center;
 }
@@ -32,18 +32,18 @@
 }
 
 .searchBox {
+    background-color: white;
     height: 35px;
     width: 40%;
     min-width: 100px;
     display: flex;
     gap: 10px;
-    border-radius: 10px;
     position: relative;
     align-items: center;
 }
 
 .searchBox input {
-    background-color: rgba(255, 255, 255, 0.651);
+    background-color: White;
     height: 100%;
     color: black;
     padding: 0px 30px;
@@ -51,27 +51,64 @@
     flex-grow: 1;
     border: none;
     width: 100%;
-    border-radius: 5px;
+
     margin-bottom: 0px !important;
 }
-
-.searchBox input:focus {
-    background-color: white;
-}
-
-.searchBox :first-child {
+.searchBox >:first-child {
     position: absolute;
     z-index: 10;
     left: 5px;
 }
 
-.searchBox :last-child {
+.searchBox >:last-child {
     position: absolute;
     z-index: 10;
     right: 5px;
 
 }
+.queryBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.searchBoxWrapper {
+    position: relative;
+    width: 100%;
+}
 
+.searchBox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.suggestions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-top: none;
+    max-height: 150px;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+    top: 90%;
+    border-radius: 0 0 10px 10px;
+}
+
+.suggestions li {
+    padding: 8px 28px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+
+}
+
+.suggestions li:hover {
+    background-color: #a89393;
+}
 @media screen and (max-width: 940px) {
     .HamMenu {
         visibility: visible;
@@ -82,6 +119,7 @@
         padding-right: 25px;
         background-color: rgb(36 36 36);
         z-index: 1000;
+        align-items: center;
     }
 
     .LogoBar {

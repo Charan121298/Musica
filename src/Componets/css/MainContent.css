@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .MainContent {
     height: 100vh;
     background-color: rgb(36 36 36);
@@ -8,18 +10,18 @@
     gap: 10px;
     overflow-y: auto;
     padding-bottom: 12vh;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 .featured {
     width: 100%;
     height: 300px;
-    min-height: 300px;
+    min-height: 400px;
     max-height: 600px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
     background-size: cover;
     background-position: center;
@@ -28,27 +30,27 @@
 }
 
 .playBox {
-    justify-content: end;
-    width: 150px;
-    height: 120px;
+    background-color: rgba(146, 145, 144, 0.836);
+    justify-content: center;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 8px;
-    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    gap: 15px;
     font-weight: bold;
-}
-.playBox :first-child {
-font-size: 18px;
+    font-size: 25px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 600;
+    color: black;
 }
 
 .playBox button {
-    background-color: brown;
-    border: none;
-    padding: 7px 30px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border:2px solid rgb(209, 209, 23);
     cursor: pointer;
+    border-radius: 5px;
 }
-
 .playBox button:hover {
     background-color: rgb(161, 67, 60);
 }
@@ -226,6 +228,7 @@ font-size: 18px;
     position: relative;
     overflow: hidden;
 }
+
 .songDetails :last-child {
     width: 95px;
     font-size: 12px;
@@ -235,6 +238,7 @@ font-size: 18px;
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
 .song {
     display: flex;
     height: 100%;
@@ -266,19 +270,23 @@ font-size: 18px;
 .move {
     margin-right: 305px;
 }
-.songName,.artistName{
-font-size: 13px;
-text-align: center;
-text-wrap: nowrap;
-text-overflow: ellipsis;
-overflow: hidden;
-width: 100%;
+
+.songName,
+.artistName {
+    font-size: 13px;
+    text-align: center;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
 }
-.artistName{
+
+.artistName {
     font-size: 11px;
     color: rgb(174, 191, 192);
 }
-.artist{
+
+.artist {
     text-wrap: wrap;
     text-align: center;
     padding: 2px;
@@ -294,13 +302,20 @@ width: 100%;
         padding-top: 65px;
 
     }
-
+    .MainContent {
+        padding: 5px;
+        gap: 20px;
+        padding-bottom: 6vh;
+    }
+    
 }
+
 @keyframes moveHorizontal {
     0% {
-      transform: translateX(0%);
+        transform: translateX(0%);
     }
+
     100% {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-  }
+}

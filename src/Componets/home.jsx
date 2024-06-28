@@ -14,7 +14,7 @@ import unmute from "../assets/FooterPlayer/unmute.svg"
 function Home() {
   const firstSongKey = Object.keys(songsData)[0];
   const firstSong = songsData[firstSongKey];
-  const firstSongDetails = { name: firstSongKey, artist: firstSong.Artist, link: firstSong.Link };
+  const firstSongDetails = { name: firstSongKey, artist: firstSong.Artist, link: firstSong.Link, cover :firstSong.Cover};
   const [currentSong, setCurrentSong] = useState({ firstSongDetails });
   const audioPlayer = useRef(null);
   const [playBtn, setPlayBtn] = useState(play);
@@ -47,7 +47,7 @@ function Home() {
     setIsmove(!isMove);
     setIsSrc(!isSrc);
   };
-  const toggleSong = (songName, artistName, songPath) => {
+  const toggleSong = (songName, artistName, songPath,Cover) => {
     if (songPath) {
       if (currentSong.link === songPath) {
 
@@ -62,7 +62,7 @@ function Home() {
         // Play the new song
         audioPlayer.current.src = songPath;
         audioPlayer.current.play();
-        setCurrentSong({ name: songName, artist: artistName, link: songPath });
+        setCurrentSong({ name: songName, artist: artistName, link: songPath, cover: Cover });
 
       }
     } else {
@@ -177,7 +177,7 @@ function Home() {
 
       return (
         <div className="mainBody">
-          <LogoBar toggleSidebar={toggleSidebar} />
+          <LogoBar  playSong={playSong} setCurrentSong = {setCurrentSong} currentSong = {currentSong} toggleSong ={toggleSong} toggleSidebar={toggleSidebar} />
           <SideBar  isActive={isSidebarActive} />
           <MainContent toggleSongBar={toggleSongBar} toggleSong={toggleSong}   isSrc={isSrc} isMove={isMove} />
           <RightSection isActive={isSongBarActive} toggleSongBar={toggleSongBar} songsData={songsData} toggleSong={toggleSong} currentSong={currentSong} />

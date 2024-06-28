@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./css/FooterPlayer.css"
-import cover from "../assets/FooterPlayer/cover.jpg"
 import back from "../assets/FooterPlayer/back.svg"
 import next from "../assets/FooterPlayer/next.svg"
-import mute from "../assets/FooterPlayer/mute.svg"
 import suffle from "../assets/FooterPlayer/suffle.svg"
 import repeat from "../assets/FooterPlayer/repeat.svg"
 
@@ -42,7 +40,8 @@ export default function FooterPlayer({muteBtn,toggleMute,currentTime, duration, 
         <div className="footerBox">
             <div className="footerPlayer">
                 <div className="album">
-                    <img src={cover} alt="cover" height={45} />
+
+                    <img src={currentSong.cover || firstSongDetails.cover} alt="cover" height={45} />
                     <div className="songInfo">
                         <span>{currentSong.name || firstSongDetails.name}</span>
                         <span>{currentSong.artist || firstSongDetails.artist}</span>

@@ -1,62 +1,493 @@
 {
-    "Purpose": {
-        "Artist": "Aeden & Sketchez",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Purpose.mp3"
+    "AI": {
+        "Artist": "Max Brhon",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/AI.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/AI.jpg"
     },
-    "Feel Like": {
-        "Artist": "Aix Cee",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Feel%20Like.mp3"
+    "Alone": {
+        "Artist": "Blooom",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Alone.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Alone.jpg"
     },
-    "BABY": {
-        "Artist": "Pala Chrome",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BABY.mp3"
+    "Along Your Way": {
+        "Artist": "Dust of Apollon",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Along%20Your%20Way.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Along%20Your%20Way.jpg"
+    },
+    "Alright": {
+        "Artist": "Avi Snow",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Alright.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Alright.jpg"
+    },
+    "Apart": {
+        "Artist": "sumu",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/apart.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/apart.jpg"
+    },
+    "Back & Forth": {
+        "Artist": "MANSHN",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Back%20&%20Forth.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Back%20&%20Forth.jpg"
     },
     "BANDIDO FUNK": {
-        "Artist": "Emin Nilsen & Kamran",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BANDIDO%20FUNK.mp3"
+        "Artist": "Emin Nilsen",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BANDIDO%20FUNK.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BANDIDO%20FUNK.jpg"
     },
-    "BE THE ONE": {
-        "Artist": "WinWel",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BE%20THE%20ONE.mp3"
+    "BANE": {
+        "Artist": "Emin Nilsen",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BANE.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BANE.jpg"
     },
-    "Red Lights": {
-        "Artist": "Cafe Disko & Ella Rosa",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Red%20Lights.mp3"
+    "Bass Face": {
+        "Artist": "Jonth",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Bass%20Face.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Bass%20Face.jpg"
+    },
+    "Blessing": {
+        "Artist": "P3PPER",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Blessing.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Blessing.jpg"
+    },
+    "Broken": {
+        "Artist": "Trinist",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Broken.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Broken.jpg"
+    },
+    "Burning Wish": {
+        "Artist": "Naeleck",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Burning%20Wish.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Burning%20Wish.jpg"
+    },
+    "BUSSIN'": {
+        "Artist": "TWISTED",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BUSSIN'.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/BUSSIN'.jpg"
+    },
+    "Calling Out Your Name": {
+        "Artist": "MANIA",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Calling%20Out%20Your%20Name.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Calling%20Out%20Your%20Name.jpg"
+    },
+    "Code": {
+        "Artist": "MANSHN",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Code.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Code.jpg"
+    },
+    "Comet": {
+        "Artist": "Skybreak",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Comet.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Comet.jpg"
+    },
+    "Cradles": {
+        "Artist": "Sub Urban",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Cradles.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Cradles.jpg"
+    },
+    "Cruising": {
+        "Artist": "Dosi",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Cruising.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Cruising.jpg"
+    },
+    "Cybernetic": {
+        "Artist": "Rameses B",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Cybernetic.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Cybernetic.jpg"
     },
     "DELTA": {
         "Artist": "DJ FKU",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/DELTA.mp3"
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/DELTA.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/DELTA.jpg"
     },
-    "Everytime I See Your Face": {
-        "Artist": "Dust of Apollon",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Everytime%20I%20See%20Your%20Face.mp3"
+    "Devil": {
+        "Artist": "Diamond Eyes",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Devil.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Devil.jpg"
+    },
+    "Don't Stay": {
+        "Artist": "NGO",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Don't%20Stay.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Don't%20Stay.jpg"
+    },
+    "Done Better": {
+        "Artist": "Shiah Maisel",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Done%20Better.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Done%20Better.jpg"
+    },
+    "Donna": {
+        "Artist": "Soundy",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Donna.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Donna.jpg"
+    },
+    "Dreamer": {
+        "Artist": "Alan Walker",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Dreamer.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Dreamer.jpg"
+    },
+    "Everyday": {
+        "Artist": "Ripple",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Everyday.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Everyday.jpg"
+    },
+    "EVERYTIME I SEE YOUR FACE": {
+        "Artist": "Sam Day",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/EVERYTIME%20I%20SEE%20YOUR%20FACE.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/EVERYTIME%20I%20SEE%20YOUR%20FACE.jpg"
+    },
+    "Fade": {
+        "Artist": "dashie",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/fade.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/fade.jpg"
+    },
+    "FAVHELLA": {
+        "Artist": "ANGELPLAYA",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/FAVHELLA.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/FAVHELLA.jpg"
+    },
+    "Fearless Pt. II": {
+        "Artist": "Lost Sky",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Fearless%20Pt.%20II.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Fearless%20Pt.%20II.jpg"
+    },
+    "Feel Like": {
+        "Artist": "Aix Cee",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Feel%20Like.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Feel%20Like.jpg"
+    },
+    "Fell For A Demon": {
+        "Artist": "ROY KNOX",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Fell%20For%20A%20Demon.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Fell%20For%20A%20Demon.jpg"
     },
     "For You": {
-        "Artist": "NECROLX",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/For%20You.mp3"
+        "Artist": "T & Sugah",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/For%20You.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/For%20You.jpg"
     },
-    "KEVU": {
-        "Artist": "Rave Teacher",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/KEVU.mp3"
+    "Galactic": {
+        "Artist": "Natty Lou",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Galactic.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Galactic.jpg"
+    },
+    "GET MUCKY": {
+        "Artist": "Rameses B",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/GET%20MUCKY.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/GET%20MUCKY.jpg"
+    },
+    "Got A Feeling": {
+        "Artist": "Raul Ojamaa",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Got%20A%20Feeling.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Got%20A%20Feeling.jpg"
+    },
+    "Gotta Leave": {
+        "Artist": "Clarx",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Gotta%20Leave.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Gotta%20Leave.jpg"
+    },
+    "Help Me Help You": {
+        "Artist": "Shiah Maisel",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Help%20Me%20Help%20You.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Help%20Me%20Help%20You.jpg"
+    },
+    "Heroes Tonight": {
+        "Artist": "Janji",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Heroes%20Tonight.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Heroes%20Tonight.jpg"
+    },
+    "Hollow": {
+        "Artist": "Unlike Pluto",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Hollow.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Hollow.jpg"
+    },
+    "I Like It With You": {
+        "Artist": "Daniel Levi",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I%20Like%20It%20With%20You.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I%20Like%20It%20With%20You.jpg"
+    },
+    "I Wanna Dance": {
+        "Artist": "PYTI",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I%20Wanna%20Dance.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I%20Wanna%20Dance.jpg"
+    },
+    "I'll Be There": {
+        "Artist": "NIVIRO",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I'll%20Be%20There.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I'll%20Be%20There.jpg"
+    },
+    "I'm Not Ready": {
+        "Artist": "Low Mileage",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I'm%20Not%20Ready.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/I'm%20Not%20Ready.jpg"
+    },
+    "In Bonfires Green": {
+        "Artist": "Psylla",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/In%20Bonfires%20Green.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/In%20Bonfires%20Green.jpg"
+    },
+    "Kapoeira Phonk": {
+        "Artist": "HXDES",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Kapoeira%20Phonk.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Kapoeira%20Phonk.jpg"
+    },
+    "Karma": {
+        "Artist": "Ariadne",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Karma.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Karma.jpg"
+    },
+    "Keep You": {
+        "Artist": "Rameses B",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Keep%20You.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Keep%20You.jpg"
+    },
+    "Late At Night": {
+        "Artist": "CiDE",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Late%20At%20Night.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Late%20At%20Night.jpg"
+    },
+    "Left With Nothing": {
+        "Artist": "Shiah Maisel",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Left%20With%20Nothing.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Left%20With%20Nothing.jpg"
+    },
+    "Lies": {
+        "Artist": "Diamond Eyes",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Lies.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Lies.jpg"
+    },
+    "Love U": {
+        "Artist": "intouch",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Love%20U.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Love%20U.jpg"
+    },
+    "Memory Box": {
+        "Artist": "ROY KNOX",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Memory%20Box.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Memory%20Box.jpg"
+    },
+    "Misunderstood": {
+        "Artist": "yanvince",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/misunderstood.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/misunderstood.jpg"
+    },
+    "Moon Farewell": {
+        "Artist": "Wiguez",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Moon%20Farewell.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Moon%20Farewell.jpg"
+    },
+    "Morning Drift": {
+        "Artist": "Rameses B",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Morning%20Drift.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Morning%20Drift.jpg"
+    },
+    "Mortals": {
+        "Artist": "Warriyo",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Mortals.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Mortals.jpg"
+    },
+    "Move Your Body": {
+        "Artist": "3rd Prototype",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Move%20Your%20Body.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Move%20Your%20Body.jpg"
+    },
+    "Never Have I Felt This - VIP": {
+        "Artist": "Koven",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Never%20Have%20I%20Felt%20This%20-%20VIP.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Never%20Have%20I%20Felt%20This%20-%20VIP.jpg"
+    },
+    "Never Knew Me": {
+        "Artist": "Rameses B",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Never%20Knew%20Me.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Never%20Knew%20Me.jpg"
+    },
+    "Never Let You Down": {
+        "Artist": "Itro",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Never%20Let%20You%20Down.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Never%20Let%20You%20Down.jpg"
     },
     "Nostalgia": {
-        "Artist": "Janji & Johnning",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Nostalgia.mp3"
+        "Artist": "Janji",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Nostalgia.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Nostalgia.jpg"
     },
-    "You Get Me High": {
-        "Artist": "Rex Hooligan",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/You%20Get%20Me%20High.mp3"
+    "Oh My Gawd": {
+        "Artist": "Crushed Candy",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Oh%20My%20Gawd.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Oh%20My%20Gawd.jpg"
+    },
+    "On & On": {
+        "Artist": "Cartoon",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/On%20&%20On.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/On%20&%20On.jpg"
+    },
+    "Only The Fallen": {
+        "Artist": "Zeli",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Only%20The%20Fallen.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Only%20The%20Fallen.jpg"
+    },
+    "Phoenix": {
+        "Artist": "Netrum",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Phoenix.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Phoenix.jpg"
+    },
+    "pretty afternoon": {
+        "Artist": "Andrah",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/pretty%20afternoon.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/pretty%20afternoon.jpg"
+    },
+    "Pull Me In": {
+        "Artist": "Clarx",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Pull%20Me%20In.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Pull%20Me%20In.jpg"
+    },
+    "Purpose": {
+        "Artist": "Aeden",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Purpose.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Purpose.jpg"
     },
     "Pushing On": {
         "Artist": "RIOT",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Pushing%20On.mp3"
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Pushing%20On.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Pushing%20On.jpg"
+    },
+    "Rave Teacher": {
+        "Artist": "Kevu",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Rave%20Teacher.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Rave%20Teacher.jpg"
+    },
+    "Red Lights": {
+        "Artist": "Cafe Disko",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Red%20Lights.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Red%20Lights.jpg"
+    },
+    "Romeo and Juliet": {
+        "Artist": "SadBois",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Romeo%20and%20Juliet.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Romeo%20and%20Juliet.jpg"
+    },
+    "Round n' Round": {
+        "Artist": "Clarx",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Round%20n'%20Round.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Round%20n'%20Round.jpg"
+    },
+    "Royalty - Don Diablo Remix": {
+        "Artist": "Egzod",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Royalty%20-%20Don%20Diablo%20Remix.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Royalty%20-%20Don%20Diablo%20Remix.jpg"
+    },
+    "Royalty": {
+        "Artist": "Egzod",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Royalty.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Royalty.jpg"
+    },
+    "Set Me Free": {
+        "Artist": "T & Sugah",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Set%20Me%20Free.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Set%20Me%20Free.jpg"
+    },
+    "Sinner": {
+        "Artist": "Diamond Eyes",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Sinner.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Sinner.jpg"
+    },
+    "Soundclash": {
+        "Artist": "Jonth",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Soundclash.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Soundclash.jpg"
+    },
+    "Stars In The Sky": {
+        "Artist": "BEKSY.",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stars%20In%20The%20Sky.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stars%20In%20The%20Sky.jpg"
     },
     "Stay Focused": {
-        "Artist": "Jessee & Artino",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stay%20Focused.mp3"
+        "Artist": "Jessee",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stay%20Focused.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stay%20Focused.jpg"
     },
-    "The Right Time": {
-        "Artist": "Youth In Circles",
-        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/The%20Right%20Time.mp3"
+    "Stay": {
+        "Artist": "Diamond Eyes",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stay.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stay.jpg"
+    },
+    "Stick Around You": {
+        "Artist": "Jinxspr0",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stick%20Around%20You.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stick%20Around%20You.jpg"
+    },
+    "Stuck": {
+        "Artist": "Ripple",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stuck.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Stuck.jpg"
+    },
+    "SUN": {
+        "Artist": "KEELA",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/SUN.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/SUN.jpg"
+    },
+    "Sunrise": {
+        "Artist": "More Plastic",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Sunrise.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Sunrise.jpg"
+    },
+    "The Rocks": {
+        "Artist": "Maze",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/The%20Rocks.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/The%20Rocks.jpg"
+    },
+    "Throne": {
+        "Artist": "Tomatow",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Throne.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Throne.jpg"
+    },
+    "Time With You": {
+        "Artist": "Tollef",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Time%20With%20You.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Time%20With%20You.jpg"
+    },
+    "UFO": {
+        "Artist": "Rameses B",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/UFO.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/UFO.jpg"
+    },
+    "Unbreakable": {
+        "Artist": "Lost Sky",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Unbreakable.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Unbreakable.jpg"
+    },
+    "Vibe": {
+        "Artist": "Spicyverse",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Vibe.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Vibe.jpg"
+    },
+    "Vida Nova": {
+        "Artist": "Emin Nilsen",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Vida%20Nova.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Vida%20Nova.jpg"
+    },
+    "Vienna": {
+        "Artist": "James Mercy",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Vienna.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Vienna.jpg"
+    },
+    "Want It All": {
+        "Artist": "MVSTAFA",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Want%20It%20All.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Want%20It%20All.jpg"
+
+    },
+    "Why We Lose": {
+        "Artist": "Cartoon",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Why%20We%20Lose.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Why%20We%20Lose.jpg"
+    },
+    "Will You Come": {
+        "Artist": "Palm Skies",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Will%20You%20Come.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/Will%20You%20Come.jpg"
+    },
+    "You Get Me High": {
+        "Artist": "Rex Hooligan",
+        "Link": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/You%20Get%20Me%20High.mp3",
+        "Cover": "https://cloud-object-storage-cos-standard-5cj.s3.eu-gb.cloud-object-storage.appdomain.cloud/You%20Get%20Me%20High.jpg"
     }
 }
