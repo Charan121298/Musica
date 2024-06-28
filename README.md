@@ -1,4 +1,4 @@
-# 🎵 Musica
+# 🎵 Musica - A Music app
 
 Welcome to the **Musica**,This application is built with React and hosted on Firebase, offering seamless performance and an intuitive user interface.
 
