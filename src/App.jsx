@@ -1,14 +1,12 @@
 import './App.css';
-import React from 'react';
 import LoginPage from './Componets/LoginPage';
-import Home from './Componets/home';
-import { AuthContextProvider,UserAuth} from './firebase/AuthContext';
+import { AuthContextProvider, UserAuth } from './firebase/AuthContext';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  const user = UserAuth()
+  const user = UserAuth();
   return (
-    <div>
+    <div className="min-h-screen w-full max-w-[1800px] mx-auto bg-white dark:bg-gray-900 transition-colors">
       <AuthContextProvider>
         <Routes>
           <Route path="/" element={<LoginPage />} />
